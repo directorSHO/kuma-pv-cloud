@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Codex 利用状況ウィジェット",
+  "version": "1.0.0",
+  "description": "Codexのブラウザ画面にクレジット残高と5時間枠の残りを表示します。",
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/codex", "https://chatgpt.com/codex/*"],
+    "js": ["usage.js", "widget.js"]
+  }]
+}
