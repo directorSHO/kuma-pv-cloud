@@ -1,0 +1,4 @@
+file 'C:\Users\自分\Documents\Codex\2026-07-31\new-chat\outputs\藍の声_第1部_満月背景調和・瞬き・歌詞同期版_50秒.mp4'
+file 'C:\Users\自分\Documents\Codex\2026-07-31\new-chat\outputs\藍の声_第2部_砕けた光を拾う・瞬き・歌詞同期版_51秒.mp4'
+file 'C:\Users\自分\Documents\Codex\2026-07-31\new-chat\outputs\藍の声_第3部_声が光になる・瞬き・歌詞同期版_49秒.mp4'
+file 'C:\Users\自分\Documents\Codex\2026-07-31\new-chat\outputs\藍の声_第4部_歌詞同期・終幕エフェクト版_51秒.mp4'

@@ -1,0 +1,41 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+
+# OS/editor/cache
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+__pycache__/
+*.pyc
+*.tmp
+*.log
+.codex-attachments/
+
+# Large/generated media (keep source projects lightweight for Codex Cloud)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mts
+*.m2ts
+*.mp3
+*.wav
+*.flac
+*.psd
+*.zip
+*.bin
+*.safetensors
+
+# Rendered/exported outputs
+outputs/
+filmora_editable/
+projects/*/deliverables/
+projects/*/renders/

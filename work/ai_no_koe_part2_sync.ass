@@ -1,0 +1,54 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Noto Serif JP,104,&H00F6F2EA,&H00C7DDE8,&H00120D22,&H00000000,-1,0,0,0,100,100,5,0,1,1.2,0,5,20,20,20,1
+Style: Glass,Noto Serif JP,118,&H00EEE7D9,&H00D6E7ED,&H00120D22,&H00000000,-1,0,0,0,100,100,8,0,1,1,0,5,20,20,20,1
+Style: Gold,Noto Serif JP,112,&H009EE6FA,&H00B8E5F7,&H00140F20,&H00000000,-1,0,0,0,100,100,6,0,1,1,0,5,20,20,20,1
+Style: Echo,Noto Serif JP,86,&H007D7889,&H000000FF,&H00120D22,&H00000000,-1,0,0,0,100,100,10,0,1,0,0,5,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:03.00,Glass,,0,0,0,,{\an4\move(95,470,165,470)\fad(40,480)\fs126\fscx125\fscy125\blur7\t(0,520,\blur0\fscx100\fscy100)\c&H00C8DDF0&}藍に染まる
+Dialogue: 0,0:00:00.00,0:00:03.00,Echo,,0,0,0,,{\an4\move(135,470,60,470)\fad(180,700)\alpha&H76&\blur8}藍に染まる
+
+Dialogue: 1,0:00:03.00,0:00:07.00,Main,,0,0,0,,{\an4\move(-80,390,125,420)\fad(80,420)\fry-75\frz-6\t(0,620,\fry0\frz0)\c&H00D6D1DE&}悲しみと
+Dialogue: 2,0:00:05.00,0:00:09.00,Gold,,0,0,0,,{\an4\move(120,650,270,650)\fad(120,520)\blur5\t(0,500,\blur0)\c&H009EDFF4&}やさしさを
+Dialogue: 0,0:00:05.00,0:00:09.00,Echo,,0,0,0,,{\an4\move(250,650,70,710)\fad(220,700)\alpha&H82&}やさしさを
+
+Dialogue: 1,0:00:08.00,0:00:14.00,Main,,0,0,0,,{\an4\pos(145,410)\fad(120,520)\fscx82\fscy82\t(0,650,\fscx100\fscy100)\fsp8}初めて知った
+Dialogue: 2,0:00:10.00,0:00:14.00,Gold,,0,0,0,,{\an4\pos(195,625)\fad(120,560)\fs132\fsp14\blur6\t(0,600,\blur0)\c&H008EDAF4&}君の手で
+Dialogue: 3,0:00:10.00,0:00:14.00,Gold,,0,0,0,,{\an5\pos(1060,500)\p1\fad(180,600)\c&H0079D7F6&\blur9\fscx70\fscy70\t(0,1500,\fscx115\fscy115\alpha&H88&)}m 0 -16 l 5 -5 l 16 0 l 5 5 l 0 16 l -5 5 l -16 0 l -5 -5
+
+Dialogue: 1,0:00:14.00,0:00:19.00,Glass,,0,0,0,,{\an4\move(100,360,180,395)\fad(80,460)\fs96\fsp4\blur5\t(0,520,\blur0)}砕けた夢の
+Dialogue: 2,0:00:16.00,0:00:19.00,Glass,,0,0,0,,{\an4\move(560,650,175,630)\fad(80,480)\fs114\frz6\fscx118\fscy118\t(0,650,\frz0\fscx100\fscy100)\c&H00C8E5ED&}かけらを拾って
+Dialogue: 3,0:00:14.00,0:00:19.00,Glass,,0,0,0,,{\an5\pos(430,580)\p1\fad(100,700)\c&H00B4DDEB&\alpha&H42&\frz-20\t(0,1800,\frz18\pos(520,500))}m 0 -55 l 34 0 l 8 68 l -42 18
+Dialogue: 3,0:00:14.00,0:00:19.00,Glass,,0,0,0,,{\an5\pos(720,360)\p1\fad(120,650)\c&H00A8D8EA&\alpha&H50&\frz20\t(0,1900,\frz-14\pos(650,455))}m 0 -38 l 28 6 l -6 52 l -35 -4
+
+Dialogue: 1,0:00:19.00,0:00:25.00,Main,,0,0,0,,{\an4\move(70,420,155,420)\fad(100,500)\fs94\fsp14\fscx88\fscy88\t(0,700,\fsp5\fscx100\fscy100)}もう一度だけ
+Dialogue: 2,0:00:22.00,0:00:25.00,Gold,,0,0,0,,{\an4\move(110,665,255,640)\fad(100,500)\fs112\fsp7\c&H009EDFF4&}歩いてみたくて
+Dialogue: 3,0:00:20.00,0:00:25.00,Gold,,0,0,0,,{\an7\pos(95,835)\p1\fad(200,700)\c&H006F95BA&\fscx0\t(0,2800,\fscx100)}m 0 -2 l 620 -2 l 620 2 l 0 2
+
+Dialogue: 1,0:00:24.00,0:00:30.00,Main,,0,0,0,,{\an4\pos(125,380)\fad(80,420)\fs98\frz-2\t(0,500,\frz0)\c&H00D8D4DF&}壊すことしか
+Dialogue: 2,0:00:27.00,0:00:30.00,Glass,,0,0,0,,{\an4\pos(180,620)\fad(80,460)\fs102\fsp3\fscx112\fscy112\t(0,90,\frz-5)\t(90,180,\frz5)\t(180,280,\frz-3)\t(280,430,\frz0\fscx100\fscy100)}できなかった僕に
+Dialogue: 3,0:00:25.00,0:00:30.00,Glass,,0,0,0,,{\an5\pos(525,540)\p1\fad(80,650)\c&H009ABFD2&\alpha&H48&\t(0,700,\fscx135\fscy135\frz22)}m 0 -90 l 12 -12 l 85 0 l 18 28 l -42 12 l 35 64 l -72 8
+Dialogue: 3,0:00:25.00,0:00:30.00,Glass,,0,0,0,,{\an5\pos(760,600)\p1\fad(100,650)\c&H008FB4CB&\alpha&H54&\t(0,850,\fscx145\fscy145\frz-25)}m 0 -64 l 46 -10 l 16 25 l -28 23 l 20 52 l -54 5
+
+Dialogue: 1,0:00:30.00,0:00:35.00,Main,,0,0,0,,{\an4\pos(145,450)\fad(100,580)\fs126\fscx90\fscy90\t(0,650,\fscx100\fscy100)}愛なんて
+Dialogue: 2,0:00:31.00,0:00:35.00,Main,,0,0,0,,{\an4\pos(180,680)\fad(120,600)\fs104\fsp8\c&H00D5D2DE&\t(1000,2700,\alpha&H30&\blur4)}知らなかったんだ
+Dialogue: 3,0:00:30.00,0:00:35.00,Gold,,0,0,0,,{\an5\pos(1000,470)\p1\fad(180,700)\c&H008EDAF4&\blur12\fscx75\fscy75\t(0,2200,\fscx130\fscy130\alpha&HA0&)}m 0 -20 l 7 -7 l 20 0 l 7 7 l 0 20 l -7 7 l -20 0 l -7 -7
+
+Dialogue: 1,0:00:34.00,0:00:40.00,Main,,0,0,0,,{\an4\move(70,410,170,410)\fad(100,460)\fs108\blur5\t(0,500,\blur0)}守りたくて
+Dialogue: 2,0:00:37.00,0:00:40.00,Glass,,0,0,0,,{\an4\move(510,655,160,655)\fad(90,520)\fs118\frz4\fscx118\fscy118\t(0,620,\frz0\fscx100\fscy100)\c&H00C8E5ED&}壊してしまった
+
+Dialogue: 1,0:00:40.00,0:00:46.00,Main,,0,0,0,,{\an4\pos(155,430)\fad(100,500)\fs102\fsp7\blur6\t(0,500,\blur0)}届かなかった
+Dialogue: 2,0:00:42.00,0:00:46.00,Gold,,0,0,0,,{\an4\pos(220,650)\fad(100,550)\fs132\fsp15\c&H009EDFF4&}あのときを
+Dialogue: 0,0:00:43.00,0:00:46.00,Echo,,0,0,0,,{\an4\move(260,650,60,720)\fad(180,700)\alpha&H78&}あのときを
+
+Dialogue: 1,0:00:46.00,0:00:51.00,Main,,0,0,0,,{\an4\move(70,390,160,420)\fad(100,360)\fs98\fscx82\fscy82\t(0,650,\fscx100\fscy100)\fsp6}もしも　この心
+Dialogue: 2,0:00:48.00,0:00:51.00,Gold,,0,0,0,,{\an4\pos(200,640)\fad(100,360)\fs124\c&H009EDFF4&\blur5\t(0,500,\blur0)}まだ動くなら

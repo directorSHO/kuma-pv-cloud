@@ -1,0 +1,120 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Noto Serif JP,144,&H00F4F1EB,&H000000FF,&H00150D2B,&H00000000,-1,0,0,0,100,100,12,0,1,1.4,0,5,40,40,40,1
+Style: Giant,Noto Serif JP,360,&H00F2EEE8,&H000000FF,&H00150D2B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,5,20,20,20,1
+Style: Lyric,Noto Serif JP,118,&H00F5F2EC,&H000000FF,&H00150D2B,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,5,20,20,20,1
+Style: Phrase,Noto Serif JP,92,&H00F5F2EC,&H000000FF,&H00150D2B,&H00000000,-1,0,0,0,100,100,8,0,1,1,0,5,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.58,0:00:02.32,Giant,,0,0,0,,{\an5\move(900,510,960,510)\clip(0,0,960,1080)\fad(60,320)\blur8\fscx118\fscy118\t(0,380,\blur0\fscx100\fscy100)}藍
+Dialogue: 0,0:00:00.58,0:00:02.32,Giant,,0,0,0,,{\an5\move(1020,510,960,510)\clip(960,0,1920,1080)\fad(60,320)\blur8\fscx118\fscy118\t(0,380,\blur0\fscx100\fscy100)}藍
+Dialogue: 1,0:00:00.58,0:00:02.30,Main,,0,0,0,,{\an5\pos(960,765)\fad(300,350)\fs42\fsp18\alpha&H38&}藍のこえ
+Dialogue: 2,0:00:00.58,0:00:01.18,Main,,0,0,0,,{\an5\pos(960,510)\p1\fad(30,220)\c&H00D7B071&}m -2 -260 l 2 -260 l 2 260 l -2 260
+Dialogue: 0,0:00:02.28,0:00:05.34,Main,,0,0,0,,{\an5\pos(960,520)\fad(180,500)\blur5\fsp44\fscx92\fscy92\t(0,700,\blur0\fsp15\fscx100\fscy100)}藍のこえ
+Dialogue: 1,0:00:02.65,0:00:04.92,Main,,0,0,0,,{\an5\pos(960,665)\p1\fad(240,420)\c&H009E7197&\fscx0\t(0,760,\fscx100)}m -255 -1 l 255 -1 l 255 1 l -255 1
+Dialogue: 0,0:00:05.42,0:00:08.78,Main,,0,0,0,,{\an5\move(1080,535,960,535)\fad(280,650)\fs126\fsp20\blur2\t(0,650,\blur0\fsp12)\c&H00EEEAF2&}藍のこえ
+Dialogue: 1,0:00:05.74,0:00:08.48,Main,,0,0,0,,{\an5\pos(960,680)\p1\fad(260,520)\c&H00737783&\fscx0\t(0,980,\fscx100)}m -220 -1 l 220 -1 l 220 1 l -220 1
+Dialogue: 0,0:00:08.86,0:00:10.72,Main,,0,0,0,,{\an5\pos(960,540)\p1\fad(350,300)\c&H005C526D&\fscx0\t(0,620,\fscx100)}m -120 -1 l 120 -1 l 120 1 l -120 1
+
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(205,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(100,250,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}き
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(350,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(470,620,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}こ
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(495,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(810,960,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}え
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(640,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1230,1380,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}な
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(785,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1610,1760,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}い
+Dialogue: 2,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(965,570)\c&H006D758B&\1a&H82&\fscx94\fscy94\t(2270,2420,\c&H00E4B66D&\1a&H00&\fscx100\fscy100)}声
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(1125,570)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(2710,2860,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}で
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(350,745)\fs88\c&H008B8B9E&\1a&H8E&\fscx94\fscy94\t(3160,3210,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}よ
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(480,745)\fs88\c&H008B8B9E&\1a&H8E&\fscx94\fscy94\t(3310,3420,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}ん
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(610,745)\fs88\c&H008B8B9E&\1a&H8E&\fscx94\fscy94\t(3650,3760,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}で
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(740,745)\fs88\c&H008B8B9E&\1a&H8E&\fscx94\fscy94\t(3960,4070,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}い
+Dialogue: 1,0:00:10.75,0:00:15.75,Lyric,,0,0,0,,{\an5\pos(870,745)\fs88\c&H008B8B9E&\1a&H8E&\fscx94\fscy94\t(4430,4530,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}た
+Dialogue: 3,0:00:10.75,0:00:15.75,Main,,0,0,0,,{\an5\pos(665,665)\p1\fad(100,260)\c&H007C648B&\fscx0\t(0,3800,\fscx100)}m -500 -1 l 500 -1 l 500 1 l -500 1
+
+Dialogue: 1,0:00:15.78,0:00:20.95,Lyric,,0,0,0,,{\an5\pos(205,530)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(170,320,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}だ
+Dialogue: 1,0:00:15.78,0:00:20.95,Lyric,,0,0,0,,{\an5\pos(350,530)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(340,490,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}れ
+Dialogue: 1,0:00:15.78,0:00:20.95,Lyric,,0,0,0,,{\an5\pos(495,530)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(490,640,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}か
+Dialogue: 1,0:00:15.78,0:00:20.95,Lyric,,0,0,0,,{\an5\pos(640,530)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(840,990,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}を
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(205,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1260,1410,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}ず
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(335,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1510,1660,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}っ
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(465,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1880,2030,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}と
+Dialogue: 2,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(650,710)\c&H006D758B&\1a&H82&\fscx94\fscy94\t(2190,2340,\c&H00A8D4CE&\1a&H00&\fscx100\fscy100)}知
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(790,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(2560,2710,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}ら
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(930,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(2850,3000,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}ず
+Dialogue: 1,0:00:15.78,0:00:20.95,Phrase,,0,0,0,,{\an5\pos(1070,710)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(3270,3420,\c&H00E7E3EE&\1a&H00&\fscx100\fscy100)}に
+
+Dialogue: 1,0:00:21.18,0:00:24.72,Phrase,,0,0,0,,{\an4\pos(150,410)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(30,180,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}こたえは
+Dialogue: 1,0:00:21.18,0:00:24.72,Phrase,,0,0,0,,{\an4\pos(185,590)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1080,1230,\c&H00A8D4CE&\1a&H00&\fscx100\fscy100)}こわくて
+Dialogue: 1,0:00:21.18,0:00:24.72,Phrase,,0,0,0,,{\an4\pos(220,770)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(1940,2090,\c&H00D6B980&\1a&H00&\fscx100\fscy100)}ふれては
+
+Dialogue: 1,0:00:24.42,0:00:29.98,Lyric,,0,0,0,,{\an4\pos(170,500)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(0,100,\c&H00F5F2EC&\1a&H00&\fscx100\fscy100)}逃げた
+Dialogue: 1,0:00:24.42,0:00:29.98,Lyric,,0,0,0,,{\an4\pos(230,700)\c&H008B8B9E&\1a&H82&\fscx94\fscy94\t(930,1080,\c&H00D6B980&\1a&H00&\fscx100\fscy100)}心の奥で
+
+Dialogue: 1,0:00:31.72,0:00:36.93,Phrase,,0,0,0,,{\an4\move(110,470,170,470)\fad(160,450)\blur5\t(0,480,\blur0)\c&H00F2EEE8&}振り返るたび
+Dialogue: 2,0:00:33.15,0:00:36.93,Phrase,,0,0,0,,{\an4\move(280,655,220,655)\fad(160,450)\c&H00A8D4CE&}消えてゆく声
+Dialogue: 1,0:00:36.70,0:00:40.20,Phrase,,0,0,0,,{\an4\pos(165,475)\fad(170,320)\fscx92\fscy92\t(0,500,\fscx100\fscy100)}君の目の奥
+Dialogue: 2,0:00:39.55,0:00:43.75,Phrase,,0,0,0,,{\an4\pos(250,690)\fad(170,480)\fsp14\c&H00D6B980&}見えなかった空
+
+Dialogue: 1,0:00:43.62,0:00:48.02,Lyric,,0,0,0,,{\an5\move(790,475,745,475)\fad(120,320)\blur4\t(0,420,\blur0)\fs96\fsp5\c&H00F5F2EC&}もしも　この胸に
+Dialogue: 2,0:00:45.22,0:00:48.02,Lyric,,0,0,0,,{\an5\pos(690,650)\fad(140,320)\fs112\fsp10\c&H00A8D4CE&}色があるなら
+Dialogue: 1,0:00:47.82,0:00:52.55,Lyric,,0,0,0,,{\an5\pos(700,555)\fad(130,420)\fs104\fscx90\fscy90\t(0,650,\fscx100\fscy100)\c&H00EDE8F2&}それはきっと
+Dialogue: 2,0:00:49.62,0:00:52.55,Lyric,,0,0,0,,{\an5\pos(670,720)\fad(130,420)\fs132\fsp18\c&H008B647C&}藍に染まる
+Dialogue: 1,0:00:52.95,0:00:57.55,Lyric,,0,0,0,,{\an5\pos(610,515)\fad(140,380)\c&H00E7E3EE&}悲しみと
+Dialogue: 2,0:00:55.15,0:00:59.15,Lyric,,0,0,0,,{\an5\pos(720,700)\fad(140,380)\c&H00A8D4CE&}やさしさを
+Dialogue: 1,0:00:58.15,0:01:03.72,Lyric,,0,0,0,,{\an5\pos(680,535)\fad(160,520)\fs96\fsp5}初めて知った
+Dialogue: 2,0:01:00.10,0:01:03.72,Lyric,,0,0,0,,{\an5\pos(690,710)\fad(160,520)\fs118\fsp12\c&H00D6B980&}君の手で
+
+Dialogue: 1,0:01:03.70,0:01:09.35,Phrase,,0,0,0,,{\an4\pos(145,430)\fad(120,420)\blur4\t(0,400,\blur0)\fs86\fsp3}砕けた夢の
+Dialogue: 2,0:01:06.20,0:01:09.35,Phrase,,0,0,0,,{\an4\pos(205,620)\fad(130,420)\fs100\c&H00A8D4CE&}かけらを拾って
+Dialogue: 1,0:01:09.10,0:01:14.85,Phrase,,0,0,0,,{\an4\move(120,470,180,470)\fad(130,400)\fs88}もう一度だけ
+Dialogue: 2,0:01:11.65,0:01:14.85,Phrase,,0,0,0,,{\an4\pos(240,675)\fad(130,400)\fs104\c&H00D6B980&}歩いてみたくて
+Dialogue: 1,0:01:14.55,0:01:20.00,Phrase,,0,0,0,,{\an4\pos(130,435)\fad(120,420)\fs82\fsp2}壊すことしか
+Dialogue: 2,0:01:16.90,0:01:20.00,Phrase,,0,0,0,,{\an4\pos(200,630)\fad(120,420)\fs92\c&H00A8D4CE&}できなかった僕に
+Dialogue: 1,0:01:19.70,0:01:24.88,Lyric,,0,0,0,,{\an4\pos(145,520)\fad(120,520)\fs108\fscx92\fscy92\t(0,650,\fscx100\fscy100)}愛なんて
+Dialogue: 2,0:01:21.55,0:01:24.88,Lyric,,0,0,0,,{\an4\pos(210,720)\fad(120,520)\fs100\fsp4\c&H008B647C&}知らなかったんだ
+
+Dialogue: 1,0:01:24.58,0:01:30.20,Lyric,,0,0,0,,{\an5\pos(690,475)\fad(120,420)\fs104\c&H00F5F2EC&}守りたくて
+Dialogue: 2,0:01:26.92,0:01:30.20,Lyric,,0,0,0,,{\an5\pos(690,690)\fad(120,420)\fs112\c&H008B647C&}壊してしまった
+Dialogue: 1,0:01:29.92,0:01:35.82,Lyric,,0,0,0,,{\an5\pos(690,500)\fad(130,480)\fs100\fsp5}届かなかった
+Dialogue: 2,0:01:32.45,0:01:35.82,Lyric,,0,0,0,,{\an5\pos(690,700)\fad(130,480)\fs126\fsp14\c&H00D6B980&}あのときを
+
+Dialogue: 1,0:01:35.62,0:01:40.78,Lyric,,0,0,0,,{\an5\pos(690,455)\fad(120,330)\blur4\t(0,400,\blur0)\fs92}もしも　この心
+Dialogue: 2,0:01:38.15,0:01:40.78,Lyric,,0,0,0,,{\an5\pos(690,650)\fad(120,330)\fs114\c&H00A8D4CE&}まだ動くなら
+Dialogue: 1,0:01:40.55,0:01:46.55,Lyric,,0,0,0,,{\an5\pos(680,485)\fad(130,430)\fs96}君にだけは
+Dialogue: 2,0:01:43.05,0:01:46.55,Lyric,,0,0,0,,{\an5\pos(680,685)\fad(130,430)\fs112\fsp6\c&H00D6B980&}届いてほしい
+Dialogue: 1,0:01:46.30,0:01:52.10,Lyric,,0,0,0,,{\an5\pos(690,480)\fad(130,430)\fs105\c&H00E7E3EE&}涙じゃない
+Dialogue: 2,0:01:48.70,0:01:52.10,Lyric,,0,0,0,,{\an5\pos(690,690)\fad(130,430)\fs118\c&H008B647C&}この想いを
+Dialogue: 1,0:01:51.82,0:01:57.35,Lyric,,0,0,0,,{\an5\pos(680,485)\fad(140,520)\fs104}そっと伝える
+Dialogue: 2,0:01:54.20,0:01:57.35,Lyric,,0,0,0,,{\an5\pos(680,700)\fad(140,520)\fs142\fsp18\c&H00A8D4CE&}藍のこえ
+
+Dialogue: 0,0:01:59.20,0:02:06.80,Main,,0,0,0,,{\an5\pos(560,560)\fad(800,900)\fs106\fsp24\blur5\t(0,900,\blur0\fsp12)\c&H008B647C&}藍のこえ
+
+Dialogue: 1,0:02:07.62,0:02:13.55,Phrase,,0,0,0,,{\an4\pos(135,440)\fad(130,430)\fs88}消えたはずの
+Dialogue: 2,0:02:10.15,0:02:13.55,Phrase,,0,0,0,,{\an4\pos(205,635)\fad(130,430)\fs106\c&H00D6B980&}あの日の光
+Dialogue: 1,0:02:13.30,0:02:19.78,Phrase,,0,0,0,,{\an4\pos(150,465)\fad(130,430)\fs92}胸の奥で
+Dialogue: 2,0:02:15.75,0:02:19.78,Phrase,,0,0,0,,{\an4\pos(215,675)\fad(130,430)\fs108\c&H00A8D4CE&}まだ揺れている
+Dialogue: 1,0:02:19.55,0:02:24.95,Lyric,,0,0,0,,{\an5\pos(690,480)\fad(120,420)\fs100}もう一度
+Dialogue: 2,0:02:21.40,0:02:24.95,Lyric,,0,0,0,,{\an5\pos(690,685)\fad(120,420)\fs116\c&H00D6B980&}君に会えたら
+Dialogue: 1,0:02:24.70,0:02:29.05,Lyric,,0,0,0,,{\an5\pos(680,490)\fad(120,500)\fs98}きっと名前を
+Dialogue: 2,0:02:26.45,0:02:29.05,Lyric,,0,0,0,,{\an5\pos(680,690)\fad(120,500)\fs112\c&H008B647C&}呼べる気がした
+
+Dialogue: 1,0:02:28.78,0:02:34.48,Lyric,,0,0,0,,{\an5\pos(690,440)\fad(120,350)\fs88}いつか　すべてが
+Dialogue: 2,0:02:31.05,0:02:34.48,Lyric,,0,0,0,,{\an5\pos(690,625)\fad(120,350)\fs106\c&H00A8D4CE&}色になる日まで
+Dialogue: 1,0:02:34.20,0:02:39.55,Lyric,,0,0,0,,{\an5\pos(680,500)\fad(130,430)\fs100}僕はここで
+Dialogue: 2,0:02:36.28,0:02:39.55,Lyric,,0,0,0,,{\an5\pos(680,700)\fad(130,430)\fs116\c&H00D6B980&}待ち続ける
+Dialogue: 1,0:02:39.55,0:02:44.78,Lyric,,0,0,0,,{\an5\pos(675,470)\fad(130,410)\fs92}知らなかった
+Dialogue: 2,0:02:41.55,0:02:44.78,Lyric,,0,0,0,,{\an5\pos(675,660)\fad(130,410)\fs104\c&H00E7E3EE&}この世界に
+Dialogue: 1,0:02:44.55,0:02:48.25,Lyric,,0,0,0,,{\an5\pos(680,485)\fad(120,350)\fs104}たしかにあった
+Dialogue: 2,0:02:46.05,0:02:48.25,Lyric,,0,0,0,,{\an5\pos(680,690)\fad(120,350)\fs134\fsp15\c&H008B647C&}君の愛
+
+Dialogue: 1,0:02:47.98,0:02:54.98,Phrase,,0,0,0,,{\an5\pos(680,470)\fad(220,650)\fs86\fsp4\c&H00B9B2C5&}「伝えられない　感情を
+Dialogue: 2,0:02:54.95,0:03:00.28,Phrase,,0,0,0,,{\an5\pos(680,650)\fad(220,850)\fs90\fsp5\c&H00F2EEE8&}いつか　伝えたかったんだよ」
+
+Dialogue: 0,0:03:02.80,0:03:10.80,Main,,0,0,0,,{\an5\pos(960,535)\fad(900,1200)\fs126\fsp22\blur6\t(0,1000,\blur0\fsp12)\c&H00EEEAF2&}藍のこえ

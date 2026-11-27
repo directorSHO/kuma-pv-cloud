@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hairline,Arial,18,&H00302A24,&H00FFFFFF,&H000E0A08,&H00000000,-1,0,0,0,100,100,0,0,1,0.45,0,5,0,0,0,1
+Style: Ember,Arial,18,&H001348A8,&H00FFFFFF,&H00102C76,&H00000000,-1,0,0,0,100,100,0,0,1,0.6,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.18,0:00:02.15,Hairline,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,600)\blur0.35\alpha&H10&}m 960 540 l 995 511 l 1014 478 l 1051 456 l 1067 418 l 1105 397 l 1125 356
+Dialogue: 0,0:00:00.30,0:00:02.15,Hairline,,0,0,0,,{\an7\pos(0,0)\p1\fad(90,600)\blur0.35\alpha&H14&}m 960 540 l 1004 558 l 1029 589 l 1071 601 l 1096 637 l 1142 649 l 1171 690
+Dialogue: 0,0:00:00.42,0:00:02.15,Hairline,,0,0,0,,{\an7\pos(0,0)\p1\fad(90,600)\blur0.35\alpha&H18&}m 960 540 l 923 570 l 901 604 l 859 623 l 838 660 l 793 680 l 771 722
+Dialogue: 0,0:00:00.55,0:00:02.15,Hairline,,0,0,0,,{\an7\pos(0,0)\p1\fad(90,600)\blur0.35\alpha&H18&}m 960 540 l 921 516 l 887 507 l 852 479 l 807 472 l 776 443 l 728 433
+Dialogue: 1,0:00:00.68,0:00:01.90,Ember,,0,0,0,,{\an7\pos(0,0)\p1\fad(120,500)\blur2.2\alpha&H38&}m 953 533 l 967 533 l 972 544 l 962 556 l 949 549
+Dialogue: 0,0:00:00.72,0:00:02.05,Hairline,,0,0,0,,{\an7\pos(0,0)\p1\fad(80,560)\blur0.3\alpha&H24&}m 994 511 l 985 482 l 997 458 l 989 432 m 1029 589 l 1055 574 l 1082 579 l 1108 565 m 901 604 l 873 592 l 848 601 l 823 586 m 887 507 l 870 526 l 846 529 l 829 547
+Dialogue: 2,0:00:01.25,0:00:04.20,Ember,,0,0,0,,{\an5\move(915,545,865,300)\p1\fad(200,600)\blur1.4\alpha&H30&}m 0 -5 l 4 0 l 0 5 l -4 0
+Dialogue: 2,0:00:01.45,0:00:04.35,Ember,,0,0,0,,{\an5\move(990,560,1045,265)\p1\fad(180,650)\blur1.2\alpha&H3A&\fscx70\fscy70}m 0 -5 l 4 0 l 0 5 l -4 0
+Dialogue: 2,0:00:01.65,0:00:04.15,Ember,,0,0,0,,{\an5\move(940,585,915,350)\p1\fad(180,600)\blur1.1\alpha&H48&\fscx55\fscy55}m 0 -5 l 4 0 l 0 5 l -4 0
+Dialogue: 2,0:00:01.90,0:00:04.45,Ember,,0,0,0,,{\an5\move(1030,520,1095,320)\p1\fad(180,650)\blur1.5\alpha&H42&\fscx62\fscy62}m 0 -5 l 4 0 l 0 5 l -4 0
+Dialogue: 2,0:00:02.10,0:00:04.55,Ember,,0,0,0,,{\an5\move(880,520,825,330)\p1\fad(200,700)\blur1.3\alpha&H50&\fscx48\fscy48}m 0 -5 l 4 0 l 0 5 l -4 0
+

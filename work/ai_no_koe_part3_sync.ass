@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Whisper,Noto Serif JP,96,&H00F3ECE2,&H00C9D9E8,&H00100B1D,&H00000000,-1,0,0,0,100,100,8,0,1,1.2,0,5,20,20,20,1
+Style: Light,Noto Serif JP,122,&H009FE7FF,&H00DCEBFF,&H00130D20,&H00000000,-1,0,0,0,100,100,10,0,1,1,0,5,20,20,20,1
+Style: Memory,Noto Serif JP,102,&H00E7E0D8,&H00BFD3E5,&H00120D20,&H00000000,-1,0,0,0,100,100,7,0,1,1,0,5,20,20,20,1
+Style: Echo,Noto Serif JP,80,&H007C7891,&H000000FF,&H00120D22,&H00000000,-1,0,0,0,100,100,12,0,1,0,0,5,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:03.00,Whisper,,0,0,0,,{\an4\move(100,335,165,335)\fad(40,420)\fscx88\fscy88\blur6\t(0,520,\fscx100\fscy100\blur0)}君にだけは
+Dialogue: 2,0:00:02.00,0:00:06.00,Light,,0,0,0,,{\an4\move(115,555,245,520)\fad(80,520)\fs132\fsp14\blur7\t(0,620,\blur0\fsp7)\c&H009FE7FF&}届いてほしい
+Dialogue: 0,0:00:02.00,0:00:06.00,Echo,,0,0,0,,{\an4\move(235,555,70,605)\fad(180,700)\alpha&H78&\blur8}届いてほしい
+
+Dialogue: 1,0:00:05.00,0:00:09.00,Whisper,,0,0,0,,{\an4\move(65,390,155,410)\fad(60,380)\frz-5\t(0,500,\frz0)\fs106}涙じゃない
+Dialogue: 2,0:00:08.00,0:00:11.00,Memory,,0,0,0,,{\an4\move(520,660,180,650)\fad(80,480)\fs112\fscx118\fscy118\t(0,650,\fscx100\fscy100)\c&H00D7DFEC&}この想いを
+
+Dialogue: 1,0:00:11.00,0:00:13.00,Whisper,,0,0,0,,{\an4\pos(135,390)\fad(80,360)\fs90\fsp16\blur5\t(0,480,\blur0\fsp7)}そっと伝える
+Dialogue: 2,0:00:12.00,0:00:17.00,Light,,0,0,0,,{\an4\pos(145,600)\fad(100,720)\fs154\fsp22\fscx82\fscy82\blur10\t(0,780,\fscx100\fscy100\blur0\fsp12)\c&H008BDFFF&}藍のこえ
+Dialogue: 3,0:00:13.00,0:00:17.00,Light,,0,0,0,,{\an5\pos(760,565)\p1\fad(120,900)\c&H008BDFFF&\alpha&H58&\blur8\fscx25\fscy25\t(0,1800,\fscx150\fscy150\alpha&HD0&)}m -40 -2 l 40 -2 l 40 2 l -40 2
+
+Dialogue: 3,0:00:18.00,0:00:26.00,Light,,0,0,0,,{\an5\pos(1355,300)\p1\fad(600,900)\c&H0093DFFF&\alpha&H75&\blur5\fscx35\fscy35\t(0,4200,\fscx210\fscy210\alpha&HE0&)}m -60 -2 l 60 -2 l 60 2 l -60 2
+Dialogue: 3,0:00:20.00,0:00:27.00,Light,,0,0,0,,{\an5\pos(1355,300)\p1\fad(600,900)\c&H00B1E7FF&\alpha&H90&\blur7\fscx30\fscy30\t(0,3900,\fscx170\fscy170\alpha&HE8&)}m -70 -2 l 70 -2 l 70 2 l -70 2
+
+Dialogue: 1,0:00:27.00,0:00:30.00,Memory,,0,0,0,,{\an4\move(80,330,170,355)\fad(80,420)\fs92\fsp8\blur5\t(0,500,\blur0)}消えたはずの
+Dialogue: 2,0:00:29.00,0:00:33.00,Light,,0,0,0,,{\an4\move(130,555,260,535)\fad(100,520)\fs120\fsp12\c&H00A6E7FF&}あの日の光
+
+Dialogue: 1,0:00:32.00,0:00:36.00,Whisper,,0,0,0,,{\an4\pos(130,365)\fad(80,400)\fs98\fscx88\fscy88\t(0,620,\fscx100\fscy100)}胸の奥で
+Dialogue: 2,0:00:35.00,0:00:39.00,Memory,,0,0,0,,{\an4\move(95,620,225,610)\fad(90,560)\fs108\fsp9\blur4\t(0,500,\blur0)}まだ揺れている
+
+Dialogue: 1,0:00:39.00,0:00:42.00,Whisper,,0,0,0,,{\an4\move(70,360,165,380)\fad(80,400)\fs96\fsp7}もう一度
+Dialogue: 2,0:00:41.00,0:00:44.00,Light,,0,0,0,,{\an4\move(510,590,205,580)\fad(80,500)\fs116\fsp11\c&H00A6E7FF&}君に会えたら
+
+Dialogue: 1,0:00:44.00,0:00:46.00,Memory,,0,0,0,,{\an4\pos(120,360)\fad(80,300)\fs92\fsp7}きっと名前を
+Dialogue: 2,0:00:45.00,0:00:48.00,Light,,0,0,0,,{\an4\pos(145,585)\fad(80,650)\fs116\fsp9\fscx88\fscy88\blur6\t(0,600,\fscx100\fscy100\blur0)\c&H009FE7FF&}呼べる気がした

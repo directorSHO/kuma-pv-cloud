@@ -1,0 +1,41 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Dawn,Noto Serif JP,94,&H00F3EEE8,&H00D7E7F5,&H00130D20,&H00000000,-1,0,0,0,100,100,9,0,1,1.2,0,5,20,20,20,1
+Style: Indigo,Noto Serif JP,112,&H00E6D3B2,&H00B5D4F1,&H00150B22,&H00000000,-1,0,0,0,100,100,11,0,1,1.1,0,5,20,20,20,1
+Style: Gold,Noto Serif JP,132,&H0098DFFF,&H00DBF0FF,&H001A1123,&H00000000,-1,0,0,0,100,100,13,0,1,1.2,0,5,20,20,20,1
+Style: Finale,Noto Serif JP,88,&H00F2ECE8,&H00C9D9E8,&H0010091B,&H00000000,-1,0,0,0,100,100,12,0,1,1,0,5,20,20,20,1
+Style: Petal,Noto Serif JP,36,&H00EBC1D8,&H00EBC1D8,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:04.00,Dawn,,0,0,0,,{\an4\move(120,300,195,300)\fad(20,380)\fscx90\fscy90\blur7\t(0,520,\fscx100\fscy100\blur0)}いつか　すべてが
+Dialogue: 3,0:00:03.00,0:00:06.00,Indigo,,0,0,0,,{\an4\move(185,505,315,485)\fad(40,520)\fs122\fsp15\blur8\t(0,620,\blur0\fsp8)\c&H00E0C8A8&}色になる日まで
+
+Dialogue: 2,0:00:05.00,0:00:08.00,Dawn,,0,0,0,,{\an4\move(90,345,175,365)\fad(35,380)\fs100\frz-3\t(0,460,\frz0)}僕はここで
+Dialogue: 3,0:00:08.00,0:00:11.00,Indigo,,0,0,0,,{\an4\move(500,675,235,650)\fad(40,560)\fs124\fsp12\fscx114\fscy114\blur6\t(0,590,\fscx100\fscy100\blur0)}待ち続ける
+
+Dialogue: 2,0:00:10.00,0:00:13.00,Dawn,,0,0,0,,{\an6\move(1760,280,1660,305)\fad(40,380)\fs91\fsp10\blur5\t(0,470,\blur0)}知らなかった
+Dialogue: 3,0:00:13.00,0:00:16.00,Indigo,,0,0,0,,{\an6\move(1685,495,1520,475)\fad(45,520)\fs119\fsp14\c&H00DFD0BA&\blur7\t(0,560,\blur0)}この世界に
+
+Dialogue: 2,0:00:15.00,0:00:18.00,Dawn,,0,0,0,,{\an5\pos(1220,360)\fad(40,320)\fs90\fsp14\fscx88\fscy88\blur6\t(0,470,\fscx100\fscy100\blur0)}たしかにあった
+Dialogue: 4,0:00:17.00,0:00:20.00,Gold,,0,0,0,,{\an5\pos(1260,565)\fad(50,620)\fs150\fsp20\fscx82\fscy82\blur10\t(0,650,\fscx100\fscy100\blur0\fsp10)\c&H009ADFFF&}君の愛
+Dialogue: 1,0:00:17.00,0:00:20.00,Gold,,0,0,0,,{\an5\pos(1260,565)\fad(70,740)\fs164\bord0\alpha&H92&\blur18\c&H0089DFFF&}君の愛
+
+Dialogue: 2,0:00:19.00,0:00:23.00,Finale,,0,0,0,,{\an5\pos(1040,385)\fad(50,430)\fs84\fsp17\blur7\t(0,560,\blur0\fsp10)}「伝えられない
+Dialogue: 3,0:00:21.00,0:00:26.00,Indigo,,0,0,0,,{\an5\pos(1090,565)\fad(50,650)\fs120\fsp15\fscx92\fscy92\blur8\t(0,600,\fscx100\fscy100\blur0)}感情を
+
+Dialogue: 2,0:00:26.00,0:00:29.00,Finale,,0,0,0,,{\an5\move(1110,405,1050,405)\fad(35,360)\fs82\fsp13}いつか
+Dialogue: 4,0:00:27.00,0:00:32.00,Gold,,0,0,0,,{\an5\pos(1040,585)\fad(50,920)\fs129\fsp16\fscx88\fscy88\blur8\t(0,620,\fscx100\fscy100\blur0\fsp9)\c&H00A7DFFF&}伝えたかったんだよ」
+
+Dialogue: 1,0:00:17.00,0:00:25.00,Petal,,0,0,0,,{\an5\pos(1260,560)\p1\fad(250,900)\c&H008BDAFF&\alpha&H68&\blur12\fscx15\fscy15\t(0,3800,\fscx180\fscy180\alpha&HE5&)}m -60 -2 l 60 -2 l 60 2 l -60 2
+Dialogue: 1,0:00:20.00,0:00:30.00,Petal,,0,0,0,,{\an5\move(1280,610,1610,250)\p1\fad(400,900)\c&H00B9D3F5&\alpha&H58&\blur5\frz-20\t(0,9000,\frz155)\fscx95\fscy95}m 0 -12 c 15 -18 25 -2 4 18 c -4 5 -7 4 -4 -6
+Dialogue: 1,0:00:24.00,0:00:36.00,Petal,,0,0,0,,{\an5\move(1490,290,1120,720)\p1\fad(500,1000)\c&H00E5B6D5&\alpha&H42&\blur4\frz25\t(0,11000,\frz-145)\fscx75\fscy75}m 0 -12 c 15 -18 25 -2 4 18 c -4 5 -7 4 -4 -6
+Dialogue: 1,0:00:29.00,0:00:43.00,Petal,,0,0,0,,{\an5\move(860,230,1420,670)\p1\fad(600,1200)\c&H00C8C0EE&\alpha&H50&\blur5\frz-15\t(0,13000,\frz190)\fscx68\fscy68}m 0 -12 c 15 -18 25 -2 4 18 c -4 5 -7 4 -4 -6
+Dialogue: 1,0:00:34.00,0:00:49.00,Petal,,0,0,0,,{\an5\move(1680,180,980,780)\p1\fad(700,1500)\c&H00F0C6DB&\alpha&H58&\blur5\frz35\t(0,14000,\frz-170)\fscx62\fscy62}m 0 -12 c 15 -18 25 -2 4 18 c -4 5 -7 4 -4 -6

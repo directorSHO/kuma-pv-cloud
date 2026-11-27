@@ -1,0 +1,59 @@
+{
+    "vbl_modify_version": "8.7.3.0",
+    "vbl_create_version": "8.7.3.0",
+    "project_os_name": "Windows",
+    "project_os_version": "",
+    "project_file_name": "藍の声",
+    "project_file_suffix": ".wfp",
+    "project_editor_name": "Filmora",
+    "project_editor_create_version": "15.7.4.21359",
+    "project_editor_modify_version": "15.7.4.21359",
+    "project_date_create": 1789487053,
+    "project_date_modify": 1789487158,
+    "project_timeline_duration": 0,
+    "project_current_position": 0,
+    "project_timeline_framerate": [
+        25,
+        1
+    ],
+    "project_timeline_resolution": [
+        1920,
+        1080
+    ],
+    "project_timeline_ratio": [
+        16,
+        9
+    ],
+    "project_color_space": 0,
+    "project_sample_rate": 44100,
+    "project_audio_bitdepth": 1,
+    "project_player_quality": 0,
+    "project_player_zoom_level": 0,
+    "project_player_safe_zone": false,
+    "project_archive": false,
+    "project_storage": true,
+    "project_backup": false,
+    "project_cover": false,
+    "project_custom_cover": false,
+    "project_type": 0,
+    "bRemoveProjectTypeForArchive": false,
+    "bRemoveProjectTypeForSaveAs": false,
+    "project_template_name": "",
+    "timeline_mediaId": "{F38010BA-7EE6-4703-A7BB-7031B9A02A01}",
+    "project_guid": "{25E551CE-2327-4f08-BF7F-17AE97A8BDE7}",
+    "proj_zip_save_path": "C:/Users/自分/AppData/Roaming/Wondershare/Wondershare Filmora/Projects/藍の声.wfp",
+    "proj_cover_proj_path": "C:/Users/自分/AppData/Roaming/Wondershare/Wondershare Filmora/Backup/{25E551CE-2327-4f08-BF7F-17AE97A8BDE7}/ProjectFolder/Anon/Cover\\cover_k03Of.wfpbundle",
+    "nSizeRatioType": 0,
+    "project_source": "eeb7587a342726700b8f4025fa05ff98",
+    "project_used_pack_list": [],
+    "user_data": [
+        {
+            "key": 1,
+            "data": "1"
+        },
+        {
+            "key": 2,
+            "data": ""
+        }
+    ]
+}

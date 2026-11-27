@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Crack,Arial,20,&H00D8E9FF,&H00FFFFFF,&H00385EFF,&H00000000,-1,0,0,0,100,100,0,0,1,1.8,0,5,0,0,0,1
+Style: Glow,Arial,20,&H003D74FF,&H00FFFFFF,&H00234FFF,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.18,0:00:02.40,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(120,700)\blur8\alpha&H32&}m 958 538 l 1002 500 l 1021 466 l 1068 431 l 1083 390 l 1135 352 l 1150 313
+Dialogue: 1,0:00:00.20,0:00:02.30,Crack,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,650)\blur0.5}m 958 538 l 1002 500 l 1021 466 l 1068 431 l 1083 390 l 1135 352 l 1150 313
+Dialogue: 0,0:00:00.30,0:00:02.40,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(120,700)\blur8\alpha&H38&}m 961 541 l 1012 563 l 1046 596 l 1100 606 l 1137 647 l 1191 657 l 1232 705
+Dialogue: 1,0:00:00.32,0:00:02.30,Crack,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,650)\blur0.5}m 961 541 l 1012 563 l 1046 596 l 1100 606 l 1137 647 l 1191 657 l 1232 705
+Dialogue: 0,0:00:00.42,0:00:02.40,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(120,700)\blur8\alpha&H38&}m 958 542 l 916 579 l 890 618 l 836 643 l 814 685 l 754 716 l 729 765
+Dialogue: 1,0:00:00.44,0:00:02.30,Crack,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,650)\blur0.5}m 958 542 l 916 579 l 890 618 l 836 643 l 814 685 l 754 716 l 729 765
+Dialogue: 0,0:00:00.54,0:00:02.40,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(120,700)\blur8\alpha&H38&}m 957 539 l 912 510 l 870 497 l 832 461 l 776 453 l 739 414 l 680 402
+Dialogue: 1,0:00:00.56,0:00:02.30,Crack,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,650)\blur0.5}m 957 539 l 912 510 l 870 497 l 832 461 l 776 453 l 739 414 l 680 402
+Dialogue: 0,0:00:00.65,0:00:02.35,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(100,650)\blur7\alpha&H44&}m 1001 501 l 986 461 l 1004 430 l 990 394 m 1047 596 l 1080 575 l 1115 579 l 1146 557 m 890 618 l 854 602 l 823 612 l 790 594 m 870 497 l 851 521 l 820 524 l 800 549
+Dialogue: 1,0:00:00.68,0:00:02.25,Crack,,0,0,0,,{\an7\pos(0,0)\p1\fad(80,600)\blur0.4}m 1001 501 l 986 461 l 1004 430 l 990 394 m 1047 596 l 1080 575 l 1115 579 l 1146 557 m 890 618 l 854 602 l 823 612 l 790 594 m 870 497 l 851 521 l 820 524 l 800 549
+Dialogue: 2,0:00:00.28,0:00:02.20,Glow,,0,0,0,,{\an7\pos(0,0)\p1\fad(80,700)\blur14\alpha&H18&}m 948 526 l 972 526 l 980 546 l 965 562 l 942 550
+

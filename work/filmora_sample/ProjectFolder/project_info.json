@@ -1,0 +1,59 @@
+{
+    "vbl_modify_version": "8.7.3.0",
+    "vbl_create_version": "8.7.3.0",
+    "project_os_name": "Windows",
+    "project_os_version": "",
+    "project_file_name": "クマDIYベース (1) (1)",
+    "project_file_suffix": ".wfp",
+    "project_editor_name": "Filmora",
+    "project_editor_create_version": "15.7.4.21359",
+    "project_editor_modify_version": "15.7.4.21359",
+    "project_date_create": 1787677835,
+    "project_date_modify": 1787678297,
+    "project_timeline_duration": 32800000,
+    "project_current_position": 82,
+    "project_timeline_framerate": [
+        25,
+        1
+    ],
+    "project_timeline_resolution": [
+        1920,
+        1080
+    ],
+    "project_timeline_ratio": [
+        16,
+        9
+    ],
+    "project_color_space": 0,
+    "project_sample_rate": 44100,
+    "project_audio_bitdepth": 1,
+    "project_player_quality": 0,
+    "project_player_zoom_level": 0,
+    "project_player_safe_zone": false,
+    "project_archive": false,
+    "project_storage": true,
+    "project_backup": false,
+    "project_cover": false,
+    "project_custom_cover": false,
+    "project_type": 0,
+    "bRemoveProjectTypeForArchive": false,
+    "bRemoveProjectTypeForSaveAs": false,
+    "project_template_name": "",
+    "timeline_mediaId": "{94B17961-6FDF-41ef-A9E5-5FA04BF13EF3}",
+    "project_guid": "{38D5DC3F-322F-4369-ACD0-F012B9940921}",
+    "proj_zip_save_path": "C:/Users/自分/AppData/Roaming/Wondershare/Wondershare Filmora/Projects/クマDIYベース (1) (1).wfp",
+    "proj_cover_proj_path": "C:/Users/自分/AppData/Roaming/Wondershare/Wondershare Filmora/Backup/{38D5DC3F-322F-4369-ACD0-F012B9940921}/ProjectFolder/Anon/Cover\\cover__0e8p.wfpbundle",
+    "nSizeRatioType": 0,
+    "project_source": "10caedfe3571f1d223addad899edd4d1",
+    "project_used_pack_list": [],
+    "user_data": [
+        {
+            "key": 1,
+            "data": "1"
+        },
+        {
+            "key": 2,
+            "data": ""
+        }
+    ]
+}
